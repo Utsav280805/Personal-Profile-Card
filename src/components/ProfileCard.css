@@ -1,0 +1,40 @@
+.profile-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+p {
+  font-size: 1em;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons .fa-solid {
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.social-icons .fa-solid:hover {
+  color: #007BFF; /* Change color on hover */
+}
